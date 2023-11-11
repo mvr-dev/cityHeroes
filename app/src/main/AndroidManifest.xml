@@ -24,13 +24,11 @@
             </intent-filter>
         </activity>
         <provider
-            android:authorities="com.example.appforch.fileprovider"
+            android:authorities="com.appforch.fileprovider"
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"></meta-data>
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
         </provider>
     </application>
     <uses-feature android:name="android.hardware.camera.any" />

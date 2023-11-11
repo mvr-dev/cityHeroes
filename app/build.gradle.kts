@@ -1,15 +1,13 @@
-
-
 plugins {
     id("com.android.application")
 }
 
 android {
-    namespace = "com.example.appforch"
+    namespace = "com.appforch"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.appforch"
+        applicationId = "com.appforch"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -34,7 +32,6 @@ android {
 }
 
 dependencies {
-
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.8.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
@@ -50,7 +47,4 @@ dependencies {
     implementation("androidx.camera:camera-video:${camerax_version}")
     implementation("androidx.camera:camera-view:${camerax_version}")
     implementation ("com.squareup.picasso:picasso:2.8")
-
-
-
 }
