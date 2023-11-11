@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "app for ch"
 include(":app")
+inclue(":OpenCVLibrary480")
